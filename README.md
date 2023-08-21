@@ -23,8 +23,8 @@ ___
 ## Files and Content
 - `/assets`: Images relevant to the project
 - `/config`: Configuration files for LLM application
-- `/data`: Dataset used for this project (i.e., Manchester United FC 2022 Annual Report - 177-page PDF document)
-- `/models`: Binary file of GGML quantized LLM model (i.e., Llama-2-7B-Chat) 
+- `/data`: Dataset used for this project (i.e., your own PDF documents)
+- `/models`: Binary file of GGML quantized LLM model (i.e., Llama-2-13B-Chat) 
 - `/src`: Python codes of key components of LLM application, namely `llm.py`, `utils.py`, and `prompts.py`
 - `/vectorstore`: FAISS vector store for documents
 - `db_build.py`: Python script to ingest dataset and generate FAISS vector store
@@ -36,7 +36,7 @@ ___
 ## References
 - https://github.com/marella/ctransformers
 - https://huggingface.co/TheBloke
-- https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
+- https://huggingface.co/TheBloke/Llama-2-13B-Chat-GGML
 - https://python.langchain.com/en/latest/integrations/ctransformers.html
 - https://python.langchain.com/en/latest/modules/models/llms/integrations/ctransformers.html
 - https://python.langchain.com/docs/ecosystem/integrations/ctransformers
