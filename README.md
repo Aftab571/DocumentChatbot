@@ -1,6 +1,7 @@
 # Running Document chatbotLocally for Document Q&A
 
-**Step-by-step guide on TowardsDataScience**: https://towardsdatascience.com/running-llama-2-on-cpu-inference-for-document-q-a-3d636037a3d8
+**Step-by-step guide on TowardsDataScience**: https://towardsdatascience.com/running-llama-2-on-cpu-inference-for-document-q-a-3d636037a3d8. 
+The code for from the above blog has been taken and streamlit has been added for userinterface.
 
 ## Quickstart
 - Ensure you have downloaded the GGML binary file from https://huggingface.co/TheBloke/Llama-2-13B-Chat-GGML and placed it into the `models/` folder
@@ -41,3 +42,4 @@ ___
 - https://ggml.ai
 - https://github.com/rustformers/llm/blob/main/crates/ggml/README.md
 - https://www.mdpi.com/2189676
+- https://docs.streamlit.io/
