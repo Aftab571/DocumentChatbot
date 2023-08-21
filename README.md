@@ -8,6 +8,7 @@
 - Add pdf files in data folder. if the folder is not available please create one.
 - Create a python virtual environment using `python -m venv .venv` and activate it.
 - Run `pip install -r /path/to/requirements.txt` to install all the dependencies.
+- Run `python db_build.py` to build the vector database from the raw pdf files.
 - To start parsing user queries into the application, launch the terminal from the project directory and run the following command:
 - `streamlit run chat.py`.
 ___
